@@ -1,0 +1,5 @@
+com\example\microservice\userservice\UserServiceApplication.class
+com\example\microservice\userservice\config\Config.class
+com\example\microservice\userservice\resources\UserResource$1.class
+com\example\microservice\userservice\resources\UserResource.class
+com\example\microservice\userservice\model\User.class
