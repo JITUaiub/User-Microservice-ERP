@@ -13,6 +13,7 @@ eureka:
       defaultZone: http://localhost:8302/eureka
   server:
    waitTimeInMsWhenSyncEmpty: 0
+   enableSelfPreservation: false
 
 zuul:
  prefix: /api
@@ -23,3 +24,6 @@ zuul:
   user-service:
    path: /user-service/**
    url: http://localhost:8301
+  turbine-dashboard:
+   path: /turbine-dashboard/**
+   url: http://localhost:8303
