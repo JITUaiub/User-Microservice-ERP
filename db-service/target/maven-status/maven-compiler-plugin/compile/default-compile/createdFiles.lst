@@ -1,0 +1,4 @@
+com\example\microservice\dbservice\resources\DBResources.class
+com\example\microservice\dbservice\DbServiceApplication.class
+com\example\microservice\dbservice\repository\UserRepository.class
+com\example\microservice\dbservice\model\User.class
