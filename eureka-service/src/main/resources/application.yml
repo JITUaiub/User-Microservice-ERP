@@ -19,11 +19,8 @@ zuul:
  prefix: /api
  routes:
   db-service:
-   path: /db-service/**
+   path: /db-api/**
    url: http://localhost:8300
   user-service:
-   path: /user-service/**
+   path: /user-api/**
    url: http://localhost:8301
-  turbine-dashboard:
-   path: /turbine-dashboard/**
-   url: http://localhost:8303
